@@ -1,146 +1,229 @@
-# Plan de Module : Les Fondations du Développeur Web
+```markdown
+Module      : CP00-BASES / CP01-ENV (Partie 1)
+Type        : PLAN DE COURS DÉTAILLÉ
+Versions    : Git 2.x, Docker V2, Markdown
+REAC        : DWWM V04 — Compétences transversales & CP1
+Auteur      : [Votre Prénom NOM]
+Mise à jour : 2026-06
 
-**Public cible :** Apprenants en reconversion professionnelle (Adapté aux profils TSA / TDAH)  
-**Cadre réglementaire :** Titre Professionnel DWWM (Niveau 5) — Alignement REAC / RE
-
----
-
-## Principes Directeurs d'Accessibilité
-Pour maximiser la charge cognitive utile et minimiser la surcharge attentionnelle ou l'anxiété, ce module applique les règles suivantes :
-* **Zéro ambiguïté :** Pas de métaphores, pas de consignes implicites. Chaque tâche commence par un verbe d'action univoque.
-* **Prévisibilité structurelle :** Chaque sous-section utilise exactement la même structure visuelle : 
-    - *Durée ➡️ Objectif ➡️ Livrable attendu ➡️ Liste d'actions séquentielles*.
-* **Découpage atomique :** Les concepts complexes sont segmentés en micro-étapes indépendantes de maximum 15 à 20 minutes.
+```
 
 ---
 
-## Structuration Pédagogique selon la Taxonomie de Bloom
+## Module 1 : Fondations, Algorithmique et Versioning
 
-### 1. Mémoriser (Restituer des faits et concepts de base)
-* **Objectif général :** Identifier les composants fondamentaux du Web et l'environnement d'un développeur sans manipulation technique majeure.
-
-#### 📦 Sous-module 1.1 : L'Architecture Client-Serveur
-* **Durée :** 1 heure
-* **Objectif opérationnel :** Citer les 3 composants d'une architecture Web (Client, Serveur, Base de données) et décrire leur rôle unique.
-* **Livrable attendu :** Un schéma relationnel textuel complété avec 100% d'exactitude.
-* **Séquence d'actions pas-à-pas :**
-    1.  Lire la fiche terminologique standardisée (définitions strictes de *Client*, *Serveur*, *Requête*, *Réponse*).
-    2.  Regarder l'animation visuelle épurée (sans distraction sonore ni textuelle superflue) matérialisant le trajet d'une requête HTTP.
-    3.  Remplir le texte à trous fourni pour fixer la terminologie exacte.
-    4.  Associer, sous forme de carte à relier, chaque définition technique à son mot-clé.
-
-#### 📦 Sous-module 1.2 : Le Vocabulaire du Développeur
-* **Durée :** 1 heure
-* **Objectif opérationnel :** Distinguer les rôles respectifs des langages HTML, CSS et JavaScript dans une page web.
-* **Livrable attendu :** Un tableau comparatif trié sans erreur.
-* **Séquence d'actions pas-à-pas :**
-    1.  Ouvrir le document de référence présentant le triptyque du Web (HTML = Squelette, CSS = Habillage, JS = Comportement).
-    2.  Classer 15 lignes de code d'exemple dans trois colonnes distinctes (HTML, CSS ou JS) en s'aidant des indices visuels (balises `<>`, accolades `{}`, fonctions `()`).
+Ce module pose les bases de la logique de programmation, de la gestion de version et de la conteneurisation. Toutes les pratiques sont ancrées dans des contextes professionnels réels.
 
 ---
 
-### 2. Comprendre (Expliquer des idées ou des concepts)
-* **Objectif général :** Expliquer la logique sous-jacente des outils de développement et des protocoles sans écrire de code fonctionnel complexe.
+## Chapitre 1 : L'Environnement et le Versioning (Fil Rouge - Partie 1)
 
-#### 📦 Sous-module 2.1 : Le Protocole HTTP et le cycle Requête-Réponse
-* **Durée :** 1 heure 30 minutes
-* **Objectif opérationnel :** Expliquer le mécanisme d'une requête HTTP en décrivant le rôle des codes de statut principaux (200, 404, 500).
-* **Livrable attendu :** Une retranscription logique d'un scénario de navigation (Exemple : "L'utilisateur clique sur un lien brisé").
-* **Séquence d'actions pas-à-pas :**
-    1.  Analyser l'arborescence visuelle des codes de statut HTTP (Familles 2xx, 4xx, 5xx) classés par codes couleur (Vert = Succès, Orange = Erreur Client, Rouge = Erreur Serveur).
-    2.  Sélectionner le code de statut approprié pour 5 situations réelles décrites de manière factuelle.
-    3.  Rédiger une phrase explicative simple pour chaque situation en suivant le modèle strict : *"Le serveur renvoie le code X parce que [cause concrète]"*.
+### 1. Cours : Introduction à Git et au Markdown
 
-#### 📦 Sous-module 2.2 : Le Rôle du Versionnage (Git)
-* **Durée :** 1 heure 30 minutes
-* **Objectif opérationnel :** Expliquer l'utilité d'un système de contrôle de version et la chronologie des trois états Git (Working Directory, Staging Area, Local Repository).
-* **Livrable attendu :** Une frise chronologique légendée par l'apprenant.
-* **Séquence d'actions pas-à-pas :**
-    1.  Suivre la démonstration pas-à-pas du formateur conceptualisant Git comme un appareil photo (Modifications ➡️ Choix des éléments à photographier ➡️ Prise de vue finale).
-    2.  Placer les commandes `git add` et `git commit` sur un axe linéaire fléché représentant la progression d'un fichier.
-    3.  Formuler par écrit la différence entre un fichier "suivi" (tracked) et "non suivi" (untracked).
+* **Introduction** : Contexte collaboratif en entreprise. Pourquoi versionner son code ? Qu'est-ce que la méthode FALC pour documenter ?
 
----
 
-### 3. Appliquer (Utiliser des informations dans des situations concrètes)
-* **Objectif général :** Exécuter des procédures techniques standardisées et installer son environnement de travail sans déviation algorithmique.
+* **Concept 1 : Le flux Git local**
+* *Définition* : Le répertoire de travail, la zone d'index (Staging Area), et le dépôt local (Repository).
+* *À retenir* : Un commit est un instantané immuable du code.
 
-#### 📦 Sous-module 3.1 : Initialisation de l'Environnement Local (WSL & Git)
-* **Durée :** 3 heures
-* **Objectif opérationnel :** Configurer un dépôt Git local et exécuter les commandes de base pour sauvegarder un fichier.
-* **Livrable attendu :** Un dépôt Git initialisé contenant un fichier d'historique validé.
-* **Séquence d'actions pas-à-pas :**
-    1.  Ouvrir le terminal Linux (WSL / Debian).
-    2.  Saisir la commande `git init` dans le dossier spécifié.
-    3.  Créer un fichier texte nommé `index.html` à l'aide de la commande `touch index.html`.
-    4.  Saisir la commande `git status` et identifier visuellement la couleur rouge indiquant le fichier non suivi.
-    5.  Exécuter `git add index.html`, puis vérifier le passage au vert avec `git status`.
-    6.  Exécuter la commande de validation finale : `git commit -m "Initialisation du projet"`.
 
-#### 📦 Sous-module 3.2 : Structure d'un Document HTML Propre
-* **Durée :** 2 heures
-* **Objectif opérationnel :** Écrire un document HTML5 valide respectant la sémantique de base et l'imbrication des balises.
-* **Livrable attendu :** Un fichier `index.html` structurellement parfait, validé par le validateur W3C.
-* **Séquence d'actions pas-à-pas :**
-    1.  Recopier le squelette standard HTML5 fourni (Doctype, html, head, body).
-    2.  Insérer de manière hiérarchique un titre principal `<h1>`, deux sous-titres `<h2>` et trois paragraphes `<p>`.
-    3.  Vérifier l'alignement et l'indentation du code à l'aide de l'extension de formatage automatique de l'éditeur (raccourci clavier explicite fourni).
-    4.  Soumettre le code au validateur en ligne pour obtenir la mention "Zero Errors".
+* **Concept 2 : La syntaxe Markdown**
+* *Définition* : Format textuel léger pour rédiger des documentations claires (`#`, `##`, ``, `*`).
+
+
+
+
+
+### 2. Démo : Premier dépôt et premier README
+
+* Création d'un dossier de projet sur le poste de travail.
+* Initialisation avec `git init`.
+* Création d'un fichier `README.md` décrivant un projet fictif de **Gestion d'utilisateurs**.
+
+
+* Utilisation des commandes `git status`, `git add README.md`, et `git commit -m "doc: initialisation du projet"`.
+
+### 3. Exercice d'application
+
+* **Objectif** : Maîtriser le cycle de commit local.
+* **Consignes** :
+1. Créer un fichier `CONTRIBUTING.md` dans le dossier précédent.
+2. Rédiger à l'intérieur les règles de nommage des fichiers en Markdown.
+3. Indexer le fichier et valider le commit avec un message explicite.
+
+
+* **Critères de réussite** : La commande `git log` doit afficher deux commits distincts et propres.
 
 ---
 
-### 4. Analyser (Décomposer les informations en parties pour en comprendre les liens)
-* **Objectif général :** Inspecter une structure existante, identifier les anomalies logiques et décortiquer les flux d'exécution.
+## Chapitre 2 : Les Variables et les Structures Conditionnelles
 
-#### 📦 Sous-module 4.1 : Inspection du DOM et Débogage Visuel
-* **Durée :** 2 heures 30 minutes
-* **Objectif opérationnel :** Identifier les erreurs de balisage ou de liaison CSS dans une page cassée en utilisant les outils de développement du navigateur.
-* **Livrable attendu :** Une liste écrite répertoriant les 3 anomalies structurelles d'une page témoin.
-* **Séquence d'actions pas-à-pas :**
-    1.  Ouvrir la page web d'exercice fournie volontairement dégradée.
-    2.  Faire un clic droit ➡️ *Inspecter* pour ouvrir les DevTools.
-    3.  Parcourir l'onglet *Elements* pour localiser une balise non fermée qui brise la mise en page.
-    4.  Consulter l'onglet *Console* pour repérer une erreur 404 indiquant un mauvais chemin d'accès vers un fichier CSS.
-    5.  Noter les corrections nécessaires sur la feuille de route sans modifier le code source dans un premier temps.
+### 1. Cours : Stocker et Choisir
 
-#### 📦 Sous-module 4.2 : Analyse d'un Algorithme Linéaire
-* **Durée :** 2 heures
-* **Objectif opérationnel :** Décomposer un script séquentiel simple (variables et conditions) pour déterminer la valeur finale d'une variable.
-* **Livrable attendu :** Un tableau de suivi des variables complété étape par étape (Trace d'exécution).
-* **Séquence d'actions pas-à-pas :**
-    1.  Prendre connaissance d'un bloc de code de 10 lignes contenant des affectations de variables numériques.
-    2.  Pour chaque ligne de code, reporter la valeur de chaque variable dans le tableau fourni.
-    3.  Identifier la ligne exacte où une variable change d'état ou subit une modification inattendue.
+* **Introduction** : Comment un ordinateur mémorise une information et prend une décision selon un contexte métier.
+
+
+* **Concept 1 : Les variables et types de données**
+* *Définition* : Espaces mémoires nommés stockant des chaînes de caractères (String), des nombres (Integer/Float) ou des booléens (True/False).
+
+
+
+
+* **Concept 2 : Les structures conditionnelles (Si... Sinon)**
+* *Définition* : Permet d'aiguiller le comportement du programme selon la valeur d'une condition.
+
+
+
+
+
+### 2. Démo : Algorithme du Distributeur de Boissons
+
+* Écriture d'un algorithme en pseudo-code pour l'**Application distributeur de boissons** :
+
+
+```text
+VARIABLE stockBoisson : Entier <- 5
+VARIABLE prixBoisson : Réel <- 1.50
+VARIABLE argentInsere : Réel <- 2.00
+
+SI stockBoisson > 0 ALORS
+    SI argentInsere >= prixBoisson ALORS
+        AFFICHER "Boisson distribuée"
+        VARIABLE monnaieARendre : Réel <- argentInsere - prixBoisson
+        AFFICHER "Monnaie à rendre : " + monnaieARendre
+    SINON
+        AFFICHER "Montant insuffisant"
+    FIN SI
+SINON
+    AFFICHER "Produit épuisé"
+FIN SI
+
+```
+
+
+### 3. Exercice d'application
+*   **Objectif** : Manipuler les variables et les conditions.
+*   **Consignes** :
+    1. Écrire le pseudo-code pour le système de **Gestion d'utilisateurs**[cite: 2].
+    2. Créer une variable `ageUtilisateur` et une variable `estBanni` (booléen).
+    3. Écrire la condition : si l'utilisateur a plus de 18 ans et n'est pas banni, afficher "Accès autorisé". Sinon, afficher "Accès refusé".
+*   **Critères de réussite** : Le pseudo-code doit couvrir tous les cas de figure possibles (mineur, majeur banni, majeur non banni).
 
 ---
 
-### 5. Évaluer (Formuler des jugements fondés sur des critères et des normes)
-* **Objectif général :** Mesurer la conformité d'une production par rapport à des standards professionnels (Normes W3C, bonnes pratiques, critères d'accessibilité RGAA).
+## Chapitre 3 : Les Structures Répétitives (Boucles)
 
-#### 📦 Sous-module 5.1 : Revue de Conformité Standard (Qualité Web)
-* **Durée :** 3 heures
-* **Objectif opérationnel :** Juger de la qualité d'une page web d'un pair au regard des critères de sémantique et d'accessibilité de base (présence des attributs `alt` sur les images, hiérarchie des titres).
-* **Livrable attendu :** Une grille d'évaluation binaire (Conforme / Non conforme) argumentée.
-* **Séquence d'actions pas-à-pas :**
-    1.  Ouvrir la grille d'évaluation fournie (contenant 10 critères explicites et mesurables).
-    2.  Analyser le code source du projet d'un autre apprenant de manière anonyme.
-    3.  Cocher "Oui" ou "Non" pour chaque critère de manière objective.
-    4.  Pour chaque case "Non", indiquer la ligne de code concernée et la règle violée (Exemple : *"Ligne 12 : L'image n'a pas d'attribut alt"*).
+### 1. Cours : Automatiser les tâches répétitives
+*   **Introduction** : Éviter la répétition manuelle de lignes de code identiques.
+*   **Concept 1 : La boucle "Tant Que" (While)**
+    *   *Définition* : Répète un bloc de code tant qu'une condition reste vraie[cite: 2].
+*   **Concept 2 : La boucle "Pour" (For)**
+    *   *Définition* : Répète un bloc de code un nombre de fois déterminé à l'avance[cite: 2].
+
+### 2. Démo : Remplissage automatique du distributeur
+*   Pseudo-code simulant le chargement de canettes dans l'**Application distributeur de boissons**[cite: 2] :
+```text
+VARIABLE capaciteMax : Entier <- 10
+VARIABLE canettesActuelles : Entier <- 3
+
+TANT QUE canettesActuelles < capaciteMax
+    canettesActuelles <- canettesActuelles + 1
+    AFFICHER "Ajout d'une canette. Total : " + canettesActuelles
+FIN TANT QUE
+AFFICHER "Le distributeur est plein."
+
+```
+
+### 3. Exercice d'application
+
+* **Objectif** : Utiliser une boucle pour parcourir ou générer des données.
+* **Consignes** :
+1. Écrire l'algorithme pour le **Système de réservation de trajets**.
+
+
+2. Un conducteur propose 4 places dans son véhicule.
+3. Simuler l'affichage du message "Place numéro X disponible" pour chaque place de 1 à 4 à l'aide d'une boucle "Pour".
+
+
+* **Critères de réussite** : L'affichage doit s'arrêter strictement à la 4ème place.
 
 ---
 
-### 6. Créer (Regrouper des éléments pour former un tout fonctionnel)
-* **Objectif général :** Assembler l'ensemble des connaissances acquises pour réaliser une première intégration statique autonome et documentée.
+## Travail Pratique (TP) : Logique de l'Application Distributeur de Boissons
 
-#### 📦 Sous-module 6.1 : Le Mini-Projet "Ma Première Page Pro"
-* **Durée :** 6 heures (Segmenté en sessions de 2 heures avec pauses obligatoires)
-* **Objectif opérationnel :** Assembler une page de profil professionnel statique en HTML5, versionnée avec Git, intégrant une structure sémantique irréprochable.
-* **Livrables attendus :** 1. Un fichier `index.html` complet et valide.
-    2. Un dépôt Git local contenant un historique de commits clair (minimum 4 commits thématiques).
-* **Séquence d'actions pas-à-pas :**
-    1.  **Étape 1 (Structure) :** Écrire l'architecture HTML globale (En-tête `header`, zone de contenu `main`, pied de page `footer`).
-    2.  **Étape 2 (Contenu sémantique) :** Intégrer une section de présentation avec un titre, un paragraphe textuel et une liste à puces énumérant des compétences techniques.
-    3.  **Étape 3 (Mise en conformité) :** Inclure une image de profil avec son attribut `alt` descriptif obligatoire.
-    4.  **Étape 4 (Versionnage) :** Effectuer un commit Git intermédiaire avec un message explicite : `"Feat: Ajout de la structure et du contenu de base"`.
-    5.  **Étape 5 (Validation) :** Passer le code au validateur W3C et corriger les éventuelles alertes.
-    6.  **Étape 6 (Livraison) :** Effectuer le commit de clôture : `"Docs: Finalisation et validation de la page"`.
+### Contexte professionnel simulé
+
+La société "Automate-Express" demande de concevoir la logique algorithmique de son nouveau distributeur de boissons connecté. Vous devez modéliser la sélection, le paiement et le rendu de monnaie défensif (anticiper les erreurs de saisie).
+
+### Livrables attendus
+
+* Un fichier `ALGORITHME.md` rédigé en Markdown contenant le pseudo-code complet.
+
+
+* Un dépôt Git local contenant l'historique des modifications.
+
+
+
+### Étapes guidées
+
+1. **Initialisation** : Créer le fichier et documenter le contexte en Markdown. Faire un premier commit Git.
+
+
+2. **Saisie utilisateur** : Déclarer les variables pour le choix de la boisson (Café = 1, Thé = 2, Eau = 3), le prix associé, et la monnaie insérée par le client.
+
+
+3. **Vérification de sécurité** : Si la monnaie insérée est négative ou nulle, afficher une erreur et stopper le programme (Style défensif).
+
+
+4. **Calcul et Rendu** : Gérer le calcul de la monnaie à rendre à l'aide des structures conditionnelles apprises.
+
+
+5. **Sauvegarde** : Valider le TP avec un commit final nommé `feat: algorithme complet du distributeur`.
+
+
+
+### Barème indicatif (Sur 20 points)
+
+* Structure du Markdown claire et lisible (FALC) : 4 points
+
+
+* Utilisation correcte et typage logique des variables : 4 points
+
+
+* Gestion de la sécurité (Style défensif sur les entrées) : 4 points
+
+
+* Exactitude de la logique de rendu de monnaie : 5 points
+
+
+* Utilisation correcte des commits Git : 3 points
+
+
+
+---
+
+## Mini-Projet : Système de Validation d'Identifiants (Gestion d'utilisateurs)
+
+### Description de la tâche (Niveau 6 de Bloom - Créer)
+
+Pour clôturer ce premier module, les apprenants doivent concevoir un algorithme autonome de sécurité pour le système de **Gestion d'utilisateurs**. L'algorithme doit bloquer un compte après 3 tentatives infructueuses de connexion.
+
+### Spécifications
+
+1. Le programme possède un `identifiantCorrect` et un `motDePasseCorrect` enregistrés en mémoire.
+2. Une boucle doit permettre à l'utilisateur de tenter de se connecter jusqu'à **3 fois maximum**.
+3. À chaque tentative, si les saisies correspondent, afficher "Connexion réussie" et quitter la boucle.
+4. Si les saisies sont fausses, décrémenter le nombre d'essais restants et afficher "Identifiants incorrects. Il vous reste X essais".
+5. Si le nombre d'essais atteint 0, afficher "Compte verrouillé par sécurité".
+
+
+
+### Grille d'évaluation du Mini-Projet
+
+| Niveau d'acquisition | Indicateurs Observables |
+| --- | --- |
+| **Non acquis** | L'algorithme ne gère pas le décompte des essais ou boucle à l'infini. |
+| **En cours d'acquisition** | La boucle fonctionne mais les messages de sécurité ou les variables ne sont pas cohérents. |
+| **Acquis** | Le compte se bloque exactement après 3 essais erronés. Le code est commit sur Git. |
+| **Maîtrisé** | Le style défensif est appliqué (gestion des saisies vides) et le README est parfaitement documenté. |
