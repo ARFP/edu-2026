@@ -1,6 +1,5 @@
-Voici la proposition d’architecture pédagogique pour le module **CP2 : Maquetter des interfaces utilisateur web ou web mobile**.
+# DWWM CP02 : Maquetter des interfaces utilisateur web ou web mobile
 
-Ce plan respecte la méthode **FALC** (Facile À Lire et à Comprendre) pour limiter la charge cognitive des profils TSA et TDAH : des phrases courtes, une structure visuelle répétitive et une progression du concept vers la pratique.
 
 ---
 
