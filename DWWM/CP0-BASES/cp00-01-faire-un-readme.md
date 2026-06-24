@@ -7,7 +7,7 @@ Auteur      : Gemini Code Assist
 Mise à jour : 2024-05
 -->
 
-# 📝 Créer un README de qualité
+# Créer un README de qualité
 
 ## 1. Introduction
 
@@ -104,6 +104,50 @@ Une application web simple pour simuler la commande de boissons chaudes.
 
 ---
 
+## Abmonitions
+
+Les blocs `Admonitions Markdown étendues` (notamment supportées par GitHub, Azure DevOps, MkDocs, etc.) permettent de mettre en évidence un bloc de texte.
+
+**Voici les principaux types disponibles :** 
+
+```markdown
+> [!NOTE]
+> Information neutre ou importante
+
+> [!TIP]
+> Astuce ou bonne pratique
+
+> [!IMPORTANT]
+> Point critique à retenir
+
+> [!WARNING]
+> Attention à un risque potentiel
+
+> [!CAUTION]
+> Ces blocs ne sont pas du Markdown standard, vérifiez la compatibilité avec la plateforme que vous utilisez.
+```
+
+**Résultat :** 
+
+> [!NOTE]
+> Information neutre ou importante
+
+> [!TIP]
+> Astuce ou bonne pratique
+
+> [!IMPORTANT]
+> Point critique à retenir
+
+> [!WARNING]
+> Attention à un risque potentiel
+
+> [!CAUTION]
+> Ces blocs ne sont pas du Markdown standard, vérifiez la compatibilité avec la plateforme que vous utilisez.
+
 ## Pour aller plus loin
-* Guide officiel Markdown de GitHub
-* Outil de test Markdown en ligne
+* [Guide officiel Markdown de GitHub](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
+* [Outil de test Markdown en ligne](https://markdownlivepreview.com/)
+* Extensions VsCode : 
+    - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+    - [Marp for VsCode (faire des présentations au format Markdown)](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+
