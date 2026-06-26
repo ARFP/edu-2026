@@ -30,3 +30,8 @@ Standards : HTML5 sémantique, CSS3 (Flexbox, Grid), Méthodologie BEM.
 
 * **Mini-projet :** Intégration complète d'un site vitrine multipage, entièrement accessible, éco-conçu et déployé de manière sécurisée.
 
+
+## Ressources 
+
+[apprendre-html-et-css.com](https://www.apprendre-html-et-css.com/)
+
