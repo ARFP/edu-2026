@@ -28,13 +28,16 @@ graph TD
 </html>
 ```
 
-1. **Introduction au langage HTML**
+1. **Présentation générale**
+    - [La petite histoire du web et du HTML](./html-00-presentation.md)
+    - [La boîte à outils du développeur web frontend](./html-00-toolbox.md)
+2. **Introduction au langage HTML**
     - [Le Système de Balises et d'Attributs](./HTML-intro-balises.md)
     - [L'entête d'un document HTML (head)](./HTML-head.md)
     - [Configurer sa page : Les informations cachées au navigateur](./HTML-head-meta.md)
     - [Préparer son site pour les smartphones et les tablettes](./HTML-head-meta-viewport.md)
 
-2. **Le contenu d'un document HTML**
+3. **Le contenu d'un document HTML**
     - [Le corps d'un document HTML (body)](./HTML-body.md)
     - [L'importance de la sémantique (partie 1)](./HTMl-semantique.md)
     - [Les éléments de contenu de base (textes, liens, images)](./HTML-elements.md)
@@ -42,6 +45,7 @@ graph TD
     - [Les tableaux](./HTML-tableaux.md)
     - [Les formulaires](./HTML-formulaires.md)
 
+4. **Mettre en forme le contenu : Les feuilles de style**
 
 
 
