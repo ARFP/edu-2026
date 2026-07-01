@@ -11,6 +11,7 @@ Avant d'écrire votre première ligne de code, vous devez préparer votre espace
 >   * **Différencier** le rôle du HTML (fond / structure) et du CSS (forme / design).
 >   * **Distinguer** les caractéristiques du HTML par rapport au XML (balises figées vs libres, tolérance aux erreurs).
 >   * **Expliquer** le fonctionnement local d'un navigateur web (le concept de traducteur).
+
 > 
 > - **Savoir-faire**
 >   * **Configurer** un environnement de travail local propre.
@@ -20,10 +21,9 @@ Avant d'écrire votre première ligne de code, vous devez préparer votre espace
 
 ---
 
-> [!WARNING] Avant de démarrer
->
+> [!WARNING]
+> Avant de démarrer
 > Il est recommandé d'avoir suivi la présentation sur la petite histoire du web et du HTML. 
->
 > [Voir la présentation](./html-00-presentation.md)
 
 ## 1. Le Navigateur Web (Votre Traducteur)
