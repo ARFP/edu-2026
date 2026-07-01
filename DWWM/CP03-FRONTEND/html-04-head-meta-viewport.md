@@ -1,8 +1,17 @@
 # La Balise Meta Viewport et le Responsive
 
+> [!NOTE] 
+> 
+> #### Objectifs pédagogiques
+>
+> - **Comprendre** l'utilité de l'affichage adaptatif
+> - **Préparer** un document HTML à l'affichage adaptatif
+> - **Configurer** le comportement d'un document HTML sur des terminaux mobile
+> 
+
 La balise <meta> fait partie de la structure fondamentale d'un document HTML.
 
-La balise `<meta name="viewport">` est indispensable pour créer des sites web adaptés aux mobiles (Responsive Web Design).
+La balise `<meta name="viewport">` est indispensable pour créer des sites web adaptés aux mobiles ([Responsive Web Design](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/CSS_layout/Responsive_Design)).
 
 ---
 
@@ -32,9 +41,9 @@ Le mot "viewport" désigne la zone d'affichage de la page web à l'écran. En aj
 
 ---
 
-## 2. La Syntaxe Standard (Recommandée)
+## 2. La Syntaxe Standard
 
-C'est la configuration à utiliser par défaut dans tous vos projets :
+C'est la configuration recommandée à utiliser par défaut dans tous vos projets :
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -66,7 +75,9 @@ Ces options modifient ou bloquent le zoom manuel avec deux doigts (*pinch-to-zoo
 * **`maximum-scale`** : Seuil de zoom maximum (ex: `3.0` pour zoomer jusqu'à 3 fois la taille).
 * **`user-scalable`** : Autorise (`yes`) ou interdit (`no`) le zoom pour l'utilisateur.
 
-⚠️ **Règle d'accessibilité stricte :** Bloquer le zoom avec `user-scalable=no` ou `maximum-scale=1.0` est fortement déconseillé. Cela empêche les personnes malvoyantes d'agrandir le texte. Les navigateurs modernes ignorent souvent ces restrictions pour protéger l'utilisateur.
+> [!WARNING]
+>
+> **Règle d'accessibilité stricte :** Bloquer le zoom avec `user-scalable=no` ou `maximum-scale=1.0` est fortement déconseillé. Cela empêche les personnes malvoyantes d'agrandir le texte. Les navigateurs modernes ignorent souvent ces restrictions pour protéger l'utilisateur.
 
 ### B. La gestion des encoches (`viewport-fit`)
 
@@ -101,3 +112,7 @@ Voici les trois configurations principales à retenir selon le projet :
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
 
 ```
+
+## Ressources 
+
+- [Le Responsive Web Design](https://developer.mozilla.org/fr/docs/Learn_web_development/Core/CSS_layout/Responsive_Design)

@@ -1,5 +1,14 @@
 ## L'entête d'un document HTML
 
+> [!NOTE] 
+> 
+> #### Objectifs pédagogiques
+>
+> - **Comprendre** l'utilité des metadonnées dans un document HTML
+> - **Apprendre** à définir la langue et l'encodage d'un document HTML
+> - **Lier** des fichiers externes à un document HTML
+> 
+
 L'en-tête `<head>` contient des balises . Pour créer un document valide et optimisé, il faut inclure ces éléments :
 
 ```mermaid
@@ -62,13 +71,13 @@ Pour lier des fichiers externes, le `<head>` utilise principalement deux balises
 <script src="/chemin/vers/un/script.js" defer></script>
 ```
 
-> [!info] 
+> [!INFO] 
 >
 > **Règle de performance :** Pour éviter de bloquer l'affichage du HTML pendant le téléchargement d'un script lourd, utilisez toujours l'attribut `defer` (ex: `<script src="..." defer></script>`). Cela permet de charger le script en arrière-plan et de ne l'exécuter qu'une fois le code HTML entièrement lu par le navigateur.
 
 ---
 
-## Synthèse de l'ordre idéal du `<head>`
+## Ordre idéal du `<head>`
 
 Pour un code propre et performant, Structurez le `<head>` dans cet ordre précis :
 
@@ -77,4 +86,4 @@ Pour un code propre et performant, Structurez le `<head>` dans cet ordre précis
 3. Titre de la page (`title`)
 4. Métadonnées SEO (`description`, `robots`)
 5. Métadonnées Réseaux Sociaux (`og:`, `twitter:`)
-6. Liens externes (`favicon`, `canonical`, CSS externes)
+6. Liens externes (`favicon`, `canonical`, CSS externes, scripts JavaScript)

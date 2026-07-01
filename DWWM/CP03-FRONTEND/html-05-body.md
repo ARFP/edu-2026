@@ -2,7 +2,14 @@
 
 Après avoir configuré l'en-tête (`<head>`), le corps (`<body>`) constitue la partie visible de votre page web. Tout ce que vous écrivez ici sera affiché à l'écran pour l'utilisateur.
 
-
+> [!NOTE] 
+> 
+> #### Objectifs pédagogiques
+>
+> - **Structurer** un document HTML
+> - **Organiser** les zones de 1er niveau d'un document HTML
+> - **Structurer** le contenu principal dun document HTML
+> - **Utiliser** des balises HTML sémantiques adaptées au contenu
 
 
 ## 1. L'élément `<body>`

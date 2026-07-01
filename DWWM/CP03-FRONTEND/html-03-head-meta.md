@@ -1,5 +1,15 @@
 # Les Balises Meta en HTML
 
+> [!NOTE] 
+> 
+> #### Objectifs pédagogiques
+>
+> - **Comprendre** l'utilité des métadonnées dans un document HTML
+> - **Définir** les métadonnées pour le navigateur
+> - **Définir** les métadonnées pour les moteurs de recherche
+> - **Définir** les métadonnées pour les réseaux sociaux
+> 
+
 Une balise `<meta>` sert à insérer des **métadonnées** dans un document HTML.
 
 L'utilisateur ne voit pas ces informations sur le site.
@@ -73,9 +83,9 @@ Voici les balises meta obligatoires dans tout projet web moderne.
 
 * **Rôle :** Redirige automatiquement l'utilisateur vers une autre page après un nombre de secondes défini (ici, 5 secondes).
 
-> [!warning]
+> [!WARNING]
 >
-> **Alerte Accessibilité :** Utilisez `meta http-equiv="refresh"` avec une extrême prudence car cela perturbe les lecteurs d'écran pour les personnes en situation de handicap.
+> **Alerte Accessibilité :** Utilisez `meta http-equiv="refresh"` avec une *extrême prudence* car cela perturbe les lecteurs d'écran pour les personnes en situation de handicap.
 
 ---
 
@@ -134,7 +144,7 @@ graph TD
 
 ```
 
-* **Pourquoi c'est crucial :** Si un même produit est accessible via deux URL différentes (ex: avec des filtres de recherche), cette balise indique à Google quelle est l'adresse officielle à indexer pour éviter d'être pénalisé pour "plagiat" de son propre site.
+* **Pourquoi c'est crucial :** Si un même produit est accessible via deux URL différentes (ex: avec des filtres de recherche), cette balise indique à Google quelle est l'adresse *officielle* à indexer pour éviter d'être pénalisé pour "plagiat" de son propre site. (En savoir plus sur le [duplicate content](https://www.google.com/search?q=duplicate+content))
 
 ### 4. L'optimisation des performances (`preconnect` / `dns-prefetch`)
 
