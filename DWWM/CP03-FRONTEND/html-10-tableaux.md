@@ -4,7 +4,7 @@ En développement web moderne, les tableaux ne doivent **jamais** être utilisé
 
 ---
 
-## 1. Comprendre : La Structure Sémantique (Niveau 1 & 2 - Bloom)
+## 1. La Structure Sémantique
 
 Un tableau HTML se construit ligne par ligne. Pour qu'il soit accessible et bien structuré, on sépare l'en-tête du tableau de son corps.
 
@@ -30,7 +30,7 @@ graph TD
 
 ---
 
-## 2. Appliquer : Créer un Tableau Simple (Niveau 3 - Bloom)
+## 2. Créer un Tableau Simple
 
 Voici le code pour afficher un tableau de suivi des scores de notre projet pédagogique :
 
@@ -56,12 +56,35 @@ Voici le code pour afficher un tableau de suivi des scores de notre projet péda
     </tr>
   </tbody>
 </table>
-
 ```
+
+**Résultat :**
+
+<table>
+  <thead>
+    <tr>
+      <th>Étudiant</th>
+      <th>Projet</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Thomas</td>
+      <td>Password Hunter</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td>Chloé</td>
+      <td>Budget-Zen</td>
+      <td>92</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-## 3. Analyser : Fusionner des Lignes et des Colonnes (Niveau 4 - Bloom)
+## 3. Fusionner des Lignes et des Colonnes
 
 Parfois, une donnée doit occuper plusieurs cases. HTML utilise deux attributs spécifiques sur les balises `<th>` ou `<td>` pour fusionner des cellules.
 
@@ -96,10 +119,11 @@ L'attribut `rowspan` (pour *row span*) permet d'étirer une cellule verticalemen
 
 ---
 
-## 4. Évaluer : Guide des Bonnes Pratiques (Niveau 5 - Bloom)
+## 4. Guide des Bonnes Pratiques
+
 
 | Pratique | Pourquoi ? | Statut |
 | --- | --- | --- |
-| **Toujours inclure `<thead>` et `<tbody>**` | Permet aux outils d'accessibilité (lecteurs d'écran) de lire les données dans le bon ordre. | ✅ Correct |
-| **Gérer les bordures en HTML (`border="1"`)** | Les bordures et le design doivent être gérés uniquement en CSS. Le HTML reste brut. | ❌ À éviter |
+| **Toujours inclure `<thead>` et `<tbody>`** | Permet aux outils d'accessibilité (lecteurs d'écran) de lire les données dans le bon ordre<br>Si vous les ommettez, le navigateur les ajoutera automatiquement (attention aux effets indésirables)  | ✅ Correct |
 | **Utiliser un `<th>` pour chaque colonne** | Aide à identifier immédiatement à quoi correspond la donnée située en dessous. | ✅ Correct |
+| **Gérer les bordures en HTML (`border="1"`)** | Les bordures et le design doivent être gérés uniquement en CSS. Le HTML reste brut. | ❌ À éviter |

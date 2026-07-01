@@ -11,6 +11,13 @@ color: #333
 
 ## Comprendre le sens derrière le code
 
+> #### Objectifs pédagogiques
+>
+> * **Identifier** les 3 piliers fondateurs du Web (URL, HTTP, HTML) et leur rôle respectif.
+> * **Différencier** le rôle du HTML (fond / structure) et du CSS (forme / design).
+> * **Distinguer** les caractéristiques du HTML par rapport au XML.
+
+
 ---
 
 ![Le problème de partage de documents](./img/internet-before.jpg)
@@ -21,9 +28,9 @@ color: #333
 
 **Tim Berners-Lee** crée **3 technologies indissociables** :
 
-* **HTML** : Le langage de balisage pour *structurer* et lire le document.
-* **HTTP** : Le protocole de communication pour *transporter* le document.
-* **URL** : L'adresse unique pour *trouver* un document.
+* **HTML** : Le langage de balisage pour **structurer** et lire le document.
+* **HTTP** : Le protocole de communication pour **transporter** le document.
+* **URL** : L'adresse unique pour **trouver** un document.
 
 ---
 
@@ -39,21 +46,21 @@ color: #333
 ## 4. HTML et XML : Deux cousins germains
 
 **HTML** et **XML** partagent le même ancêtre (SGML). 
-Même système de balises, deux métiers différents.
+Même système de balises, objectifs différents.
 
 | Caractéristique | HTML 🌐 | XML 📄 |
 | --- | --- | --- |
-| **But principal** | **Afficher** et structurer une page web. | **Transporter** et stocker de la donnée. |
-| **Les Balises** | **Figées** (`<h1>`, `<p>`, `<a>`). On doit utiliser les balises officielles. | **Libres** (`<prix>`, `<boisson>`). Le développeur invente ses balises. |
+| **Objectif** | **Afficher** et structurer une page web. | **Transporter** et stocker de la donnée. |
+| **Balises** | **Figées** (`<h1>`, `<p>`, `<a>`). On doit utiliser les balises officielles. | **Libres** (`<prix>`, `<boisson>`). Le développeur invente ses balises. |
 | **Tolérance** | **Souple**. Le navigateur essaie d'afficher même s'il y a une erreur. | **Strict**. La moindre erreur bloque tout. |
 
 ---
 
 ## Ce qu'il faut retenir
 
-* Le HTML a été créé pour **lier des documents** entre eux via des liens hypertextes.
+* Le HTML a été créé pour **structurer et lier des documents** entre eux via des liens hypertextes.
 * On utilise des **balises officielles** (contrairement au XML) pour que tous les navigateurs du monde comprennent la même structure.
-* Le HTML n'est que la structure : il a besoin d'une **URL** pour être trouvé et du **HTTP** pour voyager.
+* Le **HTML** n'est que la structure : il a besoin d'une **URL** pour être trouvé et du **HTTP** pour voyager.
 
 ---
 

@@ -2,8 +2,9 @@
 
 Avant de se jeter dans le codage d'une page web, il est indispensable de comprendre le fonctionnement de base du langage **HTML** (*HyperText Markup Language*).
 
-> [!IMPORTANT] Objectifs pédagogiques
->
+> [!NOTE] 
+> 
+> #### Objectifs pédagogiques
 > À la fin de cette première partie, vous serez capable de :
 > * **Expliquer le rôle du HTML** : Comprendre la différence entre un langage de programmation (logique) et un langage de balisage (structure).
 > * **Décoder l'anatomie d'une balise** : Identifier et utiliser correctement une balise ouvrante, un contenu et une balise fermante.
@@ -113,3 +114,8 @@ La balise `<html>` est l'élément racine de la page. Comme en XML ou en SGML, c
 | **`<head>`** | Informations (cachées) de la page | 
 | **`<body>`** | Corps (visible) de la page |
 | **Imbrication** | Une balise ouverte à l'intérieur d'une autre doit être fermée avant sa balise parente : `<p> Texte <strong>important</strong> </p>`. | 
+
+## Ressources
+
+- [Apprendre le HTML sur MDN](https://developer.mozilla.org/fr/docs/Web/HTML)
+- [Apprendre le HTML sur GraphikArt](https://grafikart.fr/formations/html)
