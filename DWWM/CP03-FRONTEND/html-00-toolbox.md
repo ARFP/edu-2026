@@ -2,8 +2,9 @@
 
 Avant d'écrire votre première ligne de code, vous devez préparer votre espace de travail. Un bon artisan travaille toujours avec les bons outils. En développement web, votre boîte à outils contient trois éléments essentiels.
 
-> [!IMPORTANT] Objectifs pédagogiques
+> [!IMPORTANT]
 >
+> Objectifs pédagogiques
 > ### Savoirs
 > * **Identifier** les 3 piliers fondateurs du Web (URL, HTTP, HTML) et leur rôle respectif.
 > * **Différencier** le rôle du HTML (fond / structure) et du CSS (forme / design).
