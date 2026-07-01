@@ -20,10 +20,9 @@ Avant d'écrire votre première ligne de code, vous devez préparer votre espace
 
 ---
 
-> [!WARNING] Avant de démarrer
->
+> [!WARNING]
+> Avant de démarrer
 > Il est recommandé d'avoir suivi la présentation sur la petite histoire du web et du HTML. 
->
 > [Voir la présentation](./html-00-presentation.md)
 
 ## 1. Le Navigateur Web (Votre Traducteur)
