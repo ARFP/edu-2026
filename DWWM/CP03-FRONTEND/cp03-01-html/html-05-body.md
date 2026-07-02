@@ -1,6 +1,8 @@
-# Le Corps d'un Document HTML (La Balise `<body>`)
+# Le Corps d'un Document HTML 
 
-Après avoir configuré l'en-tête (`<head>`), le corps (`<body>`) constitue la partie visible de votre page web. Tout ce que vous écrivez ici sera affiché à l'écran pour l'utilisateur.
+## La Balise `<body>`
+
+Après avoir configuré l'en-tête (`<head>`), le corps (`<body>`) constitue la partie visible de votre page web. Tout ce que vous écrivez à l'intérieur de la balise `<body>` sera affiché à l'écran pour l'utilisateur.
 
 > [!NOTE] 
 > 
@@ -8,7 +10,7 @@ Après avoir configuré l'en-tête (`<head>`), le corps (`<body>`) constitue la 
 >
 > - **Structurer** un document HTML
 > - **Organiser** les zones de 1er niveau d'un document HTML
-> - **Structurer** le contenu principal dun document HTML
+> - **Structurer** le contenu principal d'un document HTML
 > - **Utiliser** des balises HTML sémantiques adaptées au contenu
 
 
@@ -33,18 +35,23 @@ graph TD
 
 ## 2. La structure de base
 
-Voici les principales zones à utiliser pour organiser le contenu à l'intérieur du `<body>`.
+Principales zones à utiliser pour organiser le contenu à l'intérieur du `<body>`.
 
 ### Les zones structurelles de premier niveau
 
 * **`<header>`** : L'en-tête de la page. Il contient généralement le logo du site, le titre principal et le menu de navigation.
+  * 
 * **`<nav>`** : La zone de navigation. Elle regroupe les liens principaux permettant de changer de page.
+  * On l'utilise 
 * **`<main>`** : Le cœur de la page. Il englobe le contenu unique et principal du document. 
 * **`<footer>`** : Le pied de page. Il contient les mentions légales, les liens de contact ou les droits d'auteur.
 
 > [!info]
 >
 > Il ne doit y avoir qu'un seul `<main>` visible par page.
+>
+> La balise `<nav>` est utilisée pour pour le menu principal, le fil d'arianne, les menus secondaires...
+
 
 **Exemple :**
 
@@ -85,7 +92,7 @@ Les titres structurent la lecture pour l'utilisateur et pour les robots des mote
 * **`<h2>`** : Les sous-titres des grandes sections.
 * **`<h3>`** : Les sous-sections, et ainsi de suite jusqu'à `<h6>`.
 
-> [!warning]
+> [!WARNING]
 > 
 > **Erreur classique :** Ne choisissez jamais une balise de titre pour sa taille. On utilise le HTML pour le sens (la structure), et le CSS pour le style (la taille, la couleur).
 
@@ -96,7 +103,10 @@ Les titres structurent la lecture pour l'utilisateur et pour les robots des mote
 | **`<section>`** | Regroupe des contenus qui partagent une même thématique (ex: une section "Témoignages", une section "Tarifs"). Chaque section doit idéalement commencer par un titre (`<h2>`). |
 | **`<article>`** | Un contenu autonome qui pourrait être extrait du site et partagé ailleurs sans perdre son sens (ex: un article de blog, une fiche produit). |
 | **`<aside>`** | **`<p>`** : Un paragraphe de texte simple. |
- 
+
+> [!info]
+>
+> Les `<section>` et les `<article>` peuvent contenir un `<header>` et un `<footer>`.
 
 ### B.1 Tableau de validation sémantique
 
@@ -128,9 +138,11 @@ graph TD
 | `<span>` | Inline | Elle s'utilise à l'intérieur d'un bloc, directement au milieu d'un texte, pour cibler un ou plusieurs mots précis (par exemple, pour mettre un mot en couleur). Elle ne crée aucun retour à la ligne. |
 
 
-❌ **Mauvaise pratique :** Utiliser des `<div>` ou des `<span>` partout (la "divite"). Remplacer tout votre code par des `<div class="titre">` ou `<div class="bouton">` rend le site illisible pour les moteurs de recherche et inaccessible pour les personnes en situation de handicap.
+❌ **Mauvaise pratique :** Utiliser des `<div>` ou des `<span>` partout (la "divite"). Un document HTML rempli de `<div class="titre">` ou `<div class="bouton">` rend le site illisible pour les moteurs de recherche et inaccessible pour les personnes en situation de handicap.
 
 ✅ **Bonne pratique :** Utilisez ces balises en dernier recours, uniquement lorsque aucune balise sémantique ne correspond à votre besoin, et principalement pour des raisons de décoration ou de mise en page CSS.
+
+[![Choisir la bonne balise selon le contexte](https://html5doctor.com/downloads/h5d-sectioning-flowchart.png)](https://html5doctor.com/downloads/h5d-sectioning-flowchart.pdf)  
 
 
 ## Ressources  
