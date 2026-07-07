@@ -102,3 +102,20 @@ L'apprenant possède :
 - Un fichier `contact.html`
 
 Ces 2 fichiers sont complets, parfaitement valides au validateur W3C, Le contenu est entièrement sémantique et accessible. Le site est visuellement brut de décoffrage (police par défaut, éléments les uns sous les autres), ce qui créera une immense frustration positive, parfaite pour lancer le module CSS !
+
+
+
+
+--- 
+
+
+
+## Défi d'excellence HTML (Profils Avancés)
+
+Avez-vous terminé l'exercice ? Passez au niveau supérieur :
+
+- [ ] **Sémantique :** Aucune `<div>` n'est utilisée là où une balise structurelle (`<section>`, `<article>`) est possible.
+- [ ] **Accessibilité :** Tous les visuels possèdent un attribut `alt` explicite. Les formulaires sont correctement liés.
+- [ ] **SEO :** Les balises de réseaux sociaux (Open Graph) sont configurées dans le `<head>`.
+- [ ] **Qualité :** Le code est validé à 100 % sur le validateur W3C, sans aucune erreur.
+- [ ] **Déploiement :** Le projet est versionné avec Git et visible en ligne via GitHub Pages.
