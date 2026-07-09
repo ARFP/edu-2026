@@ -4,7 +4,8 @@
 
 Développer des interfaces utilisateur.
 
-> [!NOTE] Objectifs
+> [!NOTE]
+> Objectifs
 > - Produire des pages HTML sémantiques 
 > - Respecter les bonnes pratiques d'accessibilité 
 > - Structurer correctement les formulaires 
