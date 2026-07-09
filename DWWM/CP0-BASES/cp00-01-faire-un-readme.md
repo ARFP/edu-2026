@@ -146,6 +146,7 @@ Les blocs `Admonitions Markdown étendues` (notamment supportées par GitHub, Az
 
 ## Pour aller plus loin
 * [Guide officiel Markdown de GitHub](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
+    * [Syntaxe de base Markdown sur GitHub](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [Outil de test Markdown en ligne](https://markdownlivepreview.com/)
 * Extensions VsCode : 
     - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)

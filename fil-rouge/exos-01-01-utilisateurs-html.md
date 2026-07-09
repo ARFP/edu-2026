@@ -1,25 +1,22 @@
-# Développer la structure HTML « Compte Utilisateur »
+# Développer les UI « Compte Utilisateur »
 
-### Compétence visée
-
+## Compétences
 Développer des interfaces utilisateur.
 
-> [!NOTE]
-> Objectifs
-> - Produire des pages HTML sémantiques 
-> - Respecter les bonnes pratiques d'accessibilité 
-> - Structurer correctement les formulaires 
-> - Préparer les futures intégrations CSS et JavaScript
 
+### Objectifs
+- Produire des pages HTML sémantiques 
+- Respecter les bonnes pratiques d'accessibilité 
+- Structurer correctement les formulaires 
+- Préparer les futures intégrations CSS et JavaScript
 
 ### Contraintes
-
-- HTML5 uniquement
-- Aucun CSS personnalisé
-- Aucun JavaScript
-- Respect des balises sémantiques
-- Respect de l'accessibilité
-- Navigation fonctionnelle entre les pages
+- ✅ HTML5 uniquement
+- ✅ Respect des balises sémantiques
+- ✅ Respect de l'accessibilité
+- ✅ Navigation fonctionnelle entre les pages
+- ❌ Aucun CSS
+- ❌ Aucun JavaScript
 
 ---
 
@@ -27,12 +24,11 @@ Développer des interfaces utilisateur.
 
 Votre équipe doit développer la partie HTML du module compte utilisateur de l'un des projets suivants :
 
-- jeBouquine
-- MonPetitKiosque
-- OutsideEat
+- [jeBouquine](./jebouquine/)
+- [MonPetitKiosque](./monpetitkiosque/)
+- [OutsideEat](./outside-eat/)
 
-> [!warning]
->
+> [!WARNING]
 > Aucun style CSS ni comportement JavaScript ne doit être implémenté.
 
 ## Travail demandé
@@ -43,11 +39,11 @@ Créer les pages suivantes :
 /
 │
 ├── index.html (Accueil)
+├── profil.html
 ├── inscription.html
 ├── connexion.html
 ├── mot-de-passe-oublie.html
 ├── dashboard.html
-├── profil.html
 ├── profil-edition.html
 ├── mot-de-passe.html
 └── adresses.html
@@ -55,10 +51,9 @@ Créer les pages suivantes :
 
 ## Livrables attendus
 
-- Arborescence complète du projet
-- Pages HTML valides
-- Navigation fonctionnelle
-- Structure accessible
+- 📂 Arborescence complète du projet
+- 📄 Pages HTML valides
+- 🔗 Navigation fonctionnelle
 
 ## Critères d'évaluation
 
@@ -71,10 +66,6 @@ Créer les pages suivantes :
 | Navigation | 20 |
 
 **Total : 100 points**
-
-## Durée estimée
-
-**12 à 15 heures**
 
 ---
 
