@@ -1,19 +1,16 @@
-# Série 1 – Développer la structure HTML « Compte Utilisateur »
+# Développer la structure HTML « Compte Utilisateur »
 
 ### Compétence visée
 
-> Développer des interfaces utilisateur.
+Développer des interfaces utilisateur.
 
-### Objectifs de la série
+> [!info] Objectifs
+>
+> - Produire des pages HTML sémantiques 
+> - Respecter les bonnes pratiques d'accessibilité 
+> - Structurer correctement les formulaires 
+> - Préparer les futures intégrations CSS et JavaScript
 
-Cette première série est consacrée exclusivement à la création de la structure HTML des interfaces.
-
-Les apprenants devront :
-
-- produire des pages HTML sémantiques ;
-- respecter les bonnes pratiques d'accessibilité ;
-- structurer correctement les formulaires ;
-- préparer les futures intégrations CSS et JavaScript.
 
 ### Contraintes
 
