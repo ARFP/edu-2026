@@ -1,6 +1,7 @@
 # Développer les UI « Compte Utilisateur »
 
 ## Compétences
+
 Développer des interfaces utilisateur.
 
 
@@ -20,9 +21,9 @@ Développer des interfaces utilisateur.
 
 ---
 
-# Synthèse
+## Synthèse
 
-Votre équipe doit développer la partie HTML du module compte utilisateur de l'un des projets suivants :
+Votre équipe doit développer la partie HTML du module **compte utilisateur** de l'un des projets suivants :
 
 - [jeBouquine](./jebouquine/)
 - [MonPetitKiosque](./monpetitkiosque/)
@@ -31,7 +32,7 @@ Votre équipe doit développer la partie HTML du module compte utilisateur de l'
 > [!WARNING]
 > Aucun style CSS ni comportement JavaScript ne doit être implémenté.
 
-## Travail demandé
+### Travail demandé
 
 Créer les pages suivantes :
 
@@ -43,19 +44,20 @@ Créer les pages suivantes :
 ├── inscription.html
 ├── connexion.html
 ├── mot-de-passe-oublie.html
-├── dashboard.html
-├── profil-edition.html
 ├── mot-de-passe.html
-└── adresses.html
+├── profil-edition.html
+├── adresses.html
+├── adresses-edition.html
+├── dashboard.html
 ```
 
-## Livrables attendus
+### Livrables attendus
 
 - 📂 Arborescence complète du projet
 - 📄 Pages HTML valides
 - 🔗 Navigation fonctionnelle
 
-## Critères d'évaluation
+### Critères d'évaluation
 
 | Critère | Points |
 |----------|---------:|
@@ -69,79 +71,83 @@ Créer les pages suivantes :
 
 ---
 
-# Exercice 1 – Créer la page d'accueil
+## Exercice 1 – Créer la page d'accueil
 
-## Objectif pédagogique
+### Objectifs
 
-Découvrir les balises de structure HTML5.
+- Découvrir les balises de structure HTML5
+- Implémenter la structure d'un site web
 
-## Contexte
+### Contexte
 
-Un visiteur découvre le service pour la première fois.
+Un visiteur découvre le service pour la première fois
 
-Le contenu doit pouvoir être adapté aux projets :
-
-- [jeBouquine](./jebouquine/cdc-jebouquine.md)
-- [MonPetitKiosque](./monpetitkiosque/cdc-monpetitkiosque.md)
-- [OutsideEat](./outside-eat/cdc-outside-eat.md)
-
-## Consignes
+### Consignes
 
 Créer une page contenant :
 
-### En-tête
+#### En-tête
 
-- Logo du projet
-- Nom du projet
+- Logo du projet (cliquer sur le logo redirige vers la page d'accueil)
+- Nom du projet 
 - Lien vers la connexion
 - Lien vers l'inscription
 
-### Zone principale
+#### Zone principale
 
 - Titre principal
-- Texte de présentation
+- Zone de présentation
 - Bouton ou lien « Créer un compte »
 
-### Pied de page
+#### Pied de page (liens)
 
-- Mentions légales
-- Contact
+- Mention "*© Copyright Nom de l'équipe*"
+- Lien vers la page "*Mentions légales*"
+- Lien vers la page "*Conditions générales de vente*"
+- Lien vers la page "*RGPD*"
+- Lien vers le formulaire de contact
+- Lien vers "[https://crm68.fr](https://crm68.fr)"
 
-## Balises à utiliser
+**Pour vous aider**
 
-```html
-<header>, <nav>, <main>, <section>, <footer>
-```
+- [Mentions sur votre site internet : les obligations à respecter](https://www.economie.gouv.fr/entreprises/developper-son-entreprise/innover-et-numeriser-son-entreprise/mentions-sur-votre-site-internet-les-obligations-respecter)
+- [Quelles sont les mentions légales pour un site internet professionnel ?](https://www.francenum.gouv.fr/guides-et-conseils/developpement-commercial/site-web/quelles-sont-les-mentions-legales-pour-un-site)
+- [Le règlement général sur la protection des données (RGPD), mode d’emploi](https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/assurer-sa-cybersecurite-et-la-protection-de-ses/le)
+- [Conditions générales de vente : quelles mentions sont obligatoires ?](https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/conditions-generales-de-vente-quelles-mentions-sont-obligatoires)
 
-## Critères de réussite
+### Critères de réussite
 
-- Structure HTML valide
-- Balises sémantiques utilisées
-- Hiérarchie des titres cohérente
+- [ ] Structure HTML valide
+- [ ] Balises sémantiques utilisées
+    - `<header>, <nav>, <main>, <section>, <article>, <footer>`
+- [ ] Hiérarchie des titres cohérente
+    - ❌ `<h1> <h3> <h2> <h4>`
+    - ✅ `<h1> <h2> <h3> <h4>`
 
 ---
 
-# 1 – Créer la page Profil utilisateur
+## 1 – Créer la page Profil utilisateur
 
 **Objectif**
-- Afficher des informations utilisateur.
+- Afficher des informations utilisateur
 
 **Consignes**
 
 Créer une page contenant :
 
 **Informations personnelles**
+
 - Nom
 - Prénom
 - Email
 - Téléphone
 
-### Informations spécifiques au projet
+### Informations spécifiques au projet (à compléter si besoin)
 
 #### jeBouquine
 
-- Genre(s) littéraire préféré
-- Auteur(s) favori
+- Genre littéraire préféré
+- Auteur favori
 
 #### MonPetitKiosque
 
@@ -162,33 +168,38 @@ Créer une page contenant :
 
 ---
 
-# Exercice 2 – Créer la page d'inscription
+## Exercice 2 – Créer la page d'inscription
 
-## Objectif pédagogique
+### Objectif pédagogique
 
 Structurer un formulaire complet.
 
-## Consignes
+### Consignes
 
 Créer un formulaire comprenant :
 
-### Informations personnelles
+#### Informations personnelles
 
 - Nom
 - Prénom
 
-### Informations de connexion
+#### Informations de connexion
 
 - Adresse email
 - Mot de passe
-- Confirmation du mot de passe
+- Confirmation du mot de passe 
 
-### Validation
+#### Champs supplémentaires 
 
-- Case à cocher d'acceptation des CGU
+- A compléter selon votre projet
+
+#### Validation
+
+- Case à cocher d'acceptation des CGV (avec un lien vers les CGV)
+- Case à cocher d'acceptation des règles de confidentialité (avec un lien vers la page RGPD)
 - Bouton d'inscription
 
-## Balises attendues
+### Balises attendues
 
 ```html
 <form>
@@ -198,36 +209,36 @@ Créer un formulaire comprenant :
 <input>
 ```
 
-## Critères de réussite
+### Critères de réussite
 
-- Tous les champs possèdent un label
-- Les champs sont regroupés dans des fieldsets
-- Le formulaire est accessible
+- [ ] Tous les champs possèdent un label
+- [ ] Les champs sont regroupés dans des fieldsets
+- [ ] Le formulaire est accessible
 
 ---
 
-# Exercice 3 – Créer la page de connexion
+## Exercice 3 – Créer la page de connexion
 
-## Objectif pédagogique
+### Objectif pédagogique
 
 Concevoir un formulaire d'authentification.
 
-## Consignes
+### Consignes
 
 Créer une page contenant :
 
-### Formulaire
+#### Formulaire
 
 - Adresse email
 - Mot de passe
 
-### Actions
+#### Actions
 
 - Bouton « Se connecter »
 - Lien « Mot de passe oublié »
 - Lien « Créer un compte »
 
-## Critères de réussite
+### Critères de réussite
 
 - Formulaire fonctionnel
 - Navigation cohérente
@@ -235,13 +246,13 @@ Créer une page contenant :
 
 ---
 
-# Exercice 4 – Créer la page « Mot de passe oublié »
+## Exercice 4 – Créer la page « Mot de passe oublié »
 
-## Objectif pédagogique
+### Objectif pédagogique
 
 Créer une interface de récupération de compte.
 
-## Consignes
+### Consignes
 
 Ajouter :
 
@@ -250,7 +261,7 @@ Ajouter :
 - Un champ email
 - Un bouton de validation
 
-## Critères de réussite
+### Critères de réussite
 
 - Structure claire
 - Formulaire minimaliste
@@ -260,13 +271,13 @@ Ajouter :
 
 
 
-# Exercice 6 – Créer la page de modification du profil
+## Exercice 6 – Créer la page de modification du profil
 
-## Objectif pédagogique
+### Objectif pédagogique
 
 Concevoir une interface d'édition.
 
-## Consignes
+### Consignes
 
 Créer un formulaire permettant de modifier :
 
@@ -280,7 +291,7 @@ Ajouter :
 - Bouton Enregistrer
 - Bouton Annuler
 
-## Critères de réussite
+### Critères de réussite
 
 - Structure cohérente
 - Formulaire accessible
@@ -288,13 +299,13 @@ Ajouter :
 
 ---
 
-# Exercice 7 – Créer la page de changement de mot de passe
+## Exercice 7 – Créer la page de changement de mot de passe
 
-## Objectif pédagogique
+### Objectif pédagogique
 
 Structurer un formulaire sécurisé.
 
-## Consignes
+### Consignes
 
 Créer un formulaire contenant :
 
@@ -306,7 +317,7 @@ Ajouter :
 
 - Bouton Modifier le mot de passe
 
-## Critères de réussite
+### Critères de réussite
 
 - Utilisation du type `password`
 - Formulaire clair
@@ -314,17 +325,17 @@ Ajouter :
 
 ---
 
-# Exercice 8 – Créer la page de gestion des adresses
+## Exercice 8 – Créer la page de gestion des adresses
 
-## Objectif pédagogique
+### Objectif pédagogique
 
 Structurer l'affichage d'une collection de données.
 
-## Contexte
+### Contexte
 
 Un utilisateur peut enregistrer plusieurs adresses.
 
-## Consignes
+### Consignes
 
 Afficher plusieurs adresses sous forme de liste.
 
@@ -341,7 +352,7 @@ Ajouter :
 - Bouton Supprimer
 - Bouton Ajouter une adresse
 
-## Balises recommandées
+### Balises recommandées
 
 ```html
 <section>
@@ -349,7 +360,7 @@ Ajouter :
 <button>
 ```
 
-## Critères de réussite
+### Critères de réussite
 
 - Structure réutilisable
 - Données clairement séparées
@@ -357,30 +368,30 @@ Ajouter :
 
 ---
 
-# Exercice 9 – Créer le tableau de bord utilisateur
+## Exercice 9 – Créer le tableau de bord utilisateur
 
-## Objectif pédagogique
+### Objectif pédagogique
 
 Assembler plusieurs composants HTML.
 
-## Consignes
+### Consignes
 
 Créer une interface contenant :
 
-### Zone de navigation
+#### Zone de navigation
 
 - Profil
 - Adresses
 - Commandes
 - Déconnexion
 
-### Contenu principal
+#### Contenu principal
 
 - Message de bienvenue
 - Résumé du compte
 - Dernières activités
 
-## Critères de réussite
+### Critères de réussite
 
 - Organisation claire
 - Navigation identifiable
@@ -388,13 +399,13 @@ Créer une interface contenant :
 
 ---
 
-# Exercice 10 – Relier l'ensemble des pages
+## Exercice 10 – Relier l'ensemble des pages
 
-## Objectif pédagogique
+### Objectif pédagogique
 
 Construire une navigation complète.
 
-## Consignes
+### Consignes
 
 Créer les liens entre les pages :
 
@@ -412,7 +423,7 @@ Accueil
     └── Adresses
 ```
 
-## Critères de réussite
+### Critères de réussite
 
 - Tous les liens sont fonctionnels
 - Navigation cohérente

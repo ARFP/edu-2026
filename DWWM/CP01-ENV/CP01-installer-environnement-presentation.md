@@ -124,7 +124,7 @@ Au lieu d'installer les outils directement sur votre machine, on utilise des **C
 * **ESLint** : Détection d'erreurs en direct.
 * **GitLens** : Historique visuel des modifications.
 
-### Accessibilité (TSA/ADHD)
+### Accessibilité (TSA/TDAH)
 * **Thèmes High Contrast** : Pour une meilleure lisibilité.
 * **Indentation Rainbow** : Pour voir la structure des blocs d'un coup d'œil.
 * **Mode Zen** : Pour masquer les menus inutiles et rester concentré.

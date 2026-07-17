@@ -2,7 +2,7 @@
 
 ## REAC DWWM 2023 – CP3
 
-### Compétence visée
+### Compétences
 
 > Développer des interfaces utilisateur.
 
@@ -10,33 +10,29 @@
 
 Cette deuxième série est consacrée à la mise en forme des pages HTML réalisées lors de la série précédente.
 
-Les apprenants devront :
+Vous allez :
 
-- appliquer une charte graphique cohérente ;
-- utiliser les sélecteurs CSS ;
-- mettre en page les contenus ;
-- créer des interfaces responsives ;
-- améliorer l'expérience utilisateur.
+- Créer un système de design
+- Appliquer une charte graphique cohérente 
+- Utiliser les sélecteurs CSS 
+- Mettre en page les contenus 
+- Créer des interfaces responsives 
+- Améliorer l'expérience utilisateur
 
 ### Prérequis
 
-- Série 1 terminée
-- Toutes les pages HTML sont fonctionnelles
+- Vous avez terminé la [série précédente](./exos-01-01-utilisateurs-html)
+- Toutes les pages HTML sont valides W3C et fonctionnelles
 - Navigation déjà en place
 
 ### Contraintes
 
-✅ HTML existant réutilisé
-
-✅ CSS externe uniquement
-
-✅ Aucun framework CSS
-
-✅ Aucun JavaScript
-
-✅ Responsive obligatoire
-
-✅ Respect de l'accessibilité
+- HTML existant réutilisé
+- CSS externe uniquement
+- Aucun framework CSS
+- Aucun JavaScript
+- Responsive obligatoire
+- Respect de l'accessibilité
 
 ---
 
@@ -48,21 +44,31 @@ Mettre en place l'organisation des styles du projet.
 
 ## Consignes
 
-Créer un fichier :
+A la racine du projet, créer un dossier `css`.
+
+Dans ce dossier `css`, créer un fichier `style.css`
+
+Votre arborescence devrait être : 
 
 ```text
-css/style.css
+/
+│
+├── index.html (Accueil)
+├── profil.html
+├── [...]
+├── css/
+├────── style.css 
 ```
 
 Lier ce fichier à toutes les pages du projet.
 
 Ajouter :
 
-- réinitialisation légère des marges ;
-- police globale ;
-- couleurs principales ;
-- styles des titres ;
-- styles des liens.
+- Réinitialisation légère des marges ;
+- Police globale ;
+- Couleurs principales ;
+- Styles des titres ;
+- Styles des liens.
 
 ## Critères de réussite
 
@@ -80,7 +86,7 @@ Définir une identité visuelle commune.
 
 ## Consignes
 
-Créer une charte graphique contenant :
+A la racine du projet, créer une page `ui-design.html` contenant :
 
 ### Couleur principale
 

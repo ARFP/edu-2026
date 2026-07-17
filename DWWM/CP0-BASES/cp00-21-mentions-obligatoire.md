@@ -16,9 +16,9 @@ Les [mentions légales](https://www.economie.gouv.fr/entreprises/site-internet-m
 
 Les mentions obligatoires sur les sites web sont régies par plusieurs lois, dont notamment :
 
-- La loi Informatique et Libertés, datant du 6 janvier 1978,
-- La loi pour la confiance dans l’économie numérique, datant du 21 juin 2004,
-- Le Règlement général sur la protection des données ou RGPD, entré en vigueur le 25 mai 2018.
+- Loi Informatique et Libertés, *datant du 6 janvier 1978*,
+- Loi pour la confiance dans l’économie numérique, *datant du 21 juin 2004*,
+- Règlement général sur la protection des données ou RGPD, *entré en vigueur le 25 mai 2018*.
 
 ## Les mentions obligatoires pour une personne physique (France)
 
@@ -50,12 +50,12 @@ Les mentions obligatoires sur les sites web sont régies par plusieurs lois, don
 
 Selon l’Insee, une personne morale représente « un groupement doté de la personnalité juridique ». Autrement dit, une personne morale constitue une entité juridique qui peut être : une société privée, une société civile, un groupement d’intérêt économique, une association ou encore une fondation.
 
-Voici la liste des mentions légales à respecter pour une personne morale :
+**Liste des mentions légales à respecter pour une personne morale :**
 
-- L’identité : raison sociale, forme juridique, montant du capital social,
-- Les coordonnées : adresse du siège social,
-- Les mentions relatives à la propriété intellectuelle : en cas d’utilisation d’images, d’illustrations, de photographies ou de textes,
-- Les mentions relatives à l’hébergement du site : nom de l’hébergeur, raison sociale, adresse et numéro de téléphone.
+- **L’identité :** raison sociale, forme juridique, montant du capital social,
+- **Les coordonnées :** adresse du siège social,
+- **Les mentions relatives à la propriété intellectuelle :** en cas d’utilisation d’images, d’illustrations, de photographies ou de textes,
+- **Les mentions relatives à l’hébergement du site :** nom de l’hébergeur, raison sociale, adresse et numéro de téléphone.
 
 ## Les autres mentions obligatoires selon l’activité d’un site web
 
@@ -63,12 +63,12 @@ Les obligations légales que doivent respecter les sites web varient selon leur 
 
 Voici la liste des mentions obligatoires complémentaires selon votre activité :
 
-- Activité commerciale : numéro d’inscription au registre du commerce et des sociétés (RCS) et numéro individuel d’identification (TVA intracommunautaire) en cas de relations avec des pays membres de l’Union européenne,
-- Site marchand : conditions générales de vente (CGV),
-- Activité artisanale : numéro d’immatriculation au répertoire des métiers (RM),
-- Site d’information : nom du directeur de la publication (ou le nom du responsable de la rédaction) et les coordonnées de l’hébergeur du site,
-- Activité soumise à un régime d’autorisation : nom et adresse de l’autorité qui a délivré l’autorisation d’exercer,
-- Activité réglementée : référence aux règles professionnelles applicables, titre professionnel, État membre dans lequel a été octroyé le titre professionnel, ainsi que le nom de l’ordre ou de l’organisme professionnel auprès duquel l’activité est inscrite.
+- **Activité commerciale :** numéro d’inscription au registre du commerce et des sociétés (RCS) et numéro individuel d’identification (TVA intracommunautaire) en cas de relations avec des pays membres de l’Union européenne,
+- **Site marchand :** conditions générales de vente (CGV),
+- **Activité artisanale :** numéro d’immatriculation au répertoire des métiers (RM),
+- **Site d’information :** nom du directeur de la publication (ou le nom du responsable de la rédaction) et les coordonnées de l’hébergeur du site,
+- **Activité soumise à un régime d’autorisation :** nom et adresse de l’autorité qui a délivré l’autorisation d’exercer,
+- **Activité réglementée :** référence aux règles professionnelles applicables, titre professionnel, État membre dans lequel a été octroyé le titre professionnel, ainsi que le nom de l’ordre ou de l’organisme professionnel auprès duquel l’activité est inscrite.
 
 
 ## Les mentions obligatoires liées à l’utilisation des données personnelles

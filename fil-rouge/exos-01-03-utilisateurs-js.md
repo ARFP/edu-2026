@@ -2,40 +2,37 @@
 
 ## REAC DWWM 2023 – CP3
 
-### Compétence visée
+### Compétences
 
-> Développer la partie dynamique des interfaces utilisateur web ou web mobile.
+Développer la partie dynamique des interfaces utilisateur.
 
 ### Objectifs de la série
 
 Cette troisième série a pour objectif d'ajouter de l'interactivité aux interfaces développées lors des séries précédentes.
 
-Les apprenants devront :
+Vous allez :
 
-- manipuler le DOM ;
-- gérer les événements utilisateurs ;
-- valider les formulaires ;
-- stocker des données localement ;
-- simuler des échanges avec une API ;
-- gérer l'état d'un utilisateur connecté.
+- Manipuler le DOM (Document Object Model) 
+- Gérer les événements utilisateurs 
+- Valider les formulaires 
+- Stocker des données localement 
+- Simuler des échanges avec une API 
+- Gérer l'état d'un utilisateur connecté
 
 ### Prérequis
 
-- Série 1 terminée (HTML)
-- Série 2 terminée (CSS)
-- Notions de JavaScript ES2023
+- [Série 1](./exos-01-01-utilisateurs-html) terminée (HTML)
+- [Série 2](./exos-01-02-utilisateurs-css) terminée (CSS)
+- Notions de JavaScript ES2023 
+    - Entrainez-vous avec les [exercices d'introduction](https://arfp.github.io/tp/web/javascript/)
 
 ### Contraintes
 
-✅ JavaScript natif
-
-✅ Aucun framework
-
-✅ Utilisation de modules si souhaité
-
-✅ Respect de l'accessibilité
-
-✅ Code commenté
+- JavaScript natif
+- Aucun framework 
+- Approche modulaire
+- Respect de l'accessibilité
+- Code commenté
 
 ---
 
@@ -80,9 +77,9 @@ textContent
 
 ## Critères de réussite
 
-- Sélection correcte du DOM
+- Sélection correcte de l'élément dans le DOM
 - Modification visible du contenu
-- Code lisible
+- Code lisible et commenté
 
 ---
 
