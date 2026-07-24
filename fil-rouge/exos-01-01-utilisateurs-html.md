@@ -44,7 +44,7 @@ Créer les pages suivantes :
 ├── inscription.html
 ├── connexion.html
 ├── mot-de-passe-oublie.html
-├── mot-de-passe.html
+├── mot-de-passe-edition.html
 ├── profil-edition.html
 ├── adresses.html
 ├── adresses-edition.html
