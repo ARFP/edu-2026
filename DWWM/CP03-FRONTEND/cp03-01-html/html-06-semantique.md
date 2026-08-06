@@ -4,7 +4,7 @@ Avant de donner du style à un site avec le CSS, il faut lui donner du **sens**.
 
 ---
 
-## 1. Qu'est-ce que la sémantique ? 
+## Qu'est-ce que la sémantique ? 
 
 Développer de manière sémantique, c'est choisir une balise HTML pour **ce qu'elle signifie** et non pour son apparence visuelle.
 
@@ -24,9 +24,9 @@ Les personnes non-voyantes ou malvoyantes utilisent un logiciel appelé **lecteu
 
 Les robots des moteurs de recherche (les *crawlers*) parcourent votre code pour comprendre le sujet de votre page. Un site sémantique permet d'indexer correctement vos informations, ce qui fait monter votre site dans les résultats de recherche.
 
----
+<div style="page-break-after:always;"></div>
 
-## 2. Appliquer : Tableau des principales balises sémantiques
+## Appliquer : Tableau des principales balises sémantiques
 
 Voici le guide des balises structurelles HTML5 à utiliser pour organiser vos pages.
 
@@ -41,9 +41,9 @@ Voici le guide des balises structurelles HTML5 à utiliser pour organiser vos pa
 | **`<footer>`** | Le pied de page. | Contient les mentions légales, les droits d'auteur ou les liens de contact. |
 | **`<time>`** | Une date ou une heure précise. | Aide les moteurs de recherche à dater précisément un événement ou un article. |
 
----
+<div style="page-break-after:always;"></div>
 
-## 3. Analyser : Le piège visuel (Niveau 4 - Bloom)
+## Analyser : Le piège visuel 
 
 ⚠️ **Règle d'or absolue : Le HTML donne du sens, le CSS donne le style.**
 
@@ -54,10 +54,9 @@ Il ne faut jamais choisir une balise pour la façon dont le navigateur l'affiche
 * *La bonne pratique :* Utiliser une balise neutre `<span>` (ou `<strong>` si le mot est important) et modifier sa taille avec CSS.
 
 
+<div style="page-break-after:always;"></div>
 
----
-
-## 4. TP: Corriger un code 
+## Observation
 
 Regardez ce comparatif entre un code valide et un code inaccessible.
 

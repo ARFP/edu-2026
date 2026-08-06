@@ -4,7 +4,7 @@ En développement web moderne, les tableaux ne doivent **jamais** être utilisé
 
 ---
 
-## 1. La Structure Sémantique
+## La Structure Sémantique
 
 Un tableau HTML se construit ligne par ligne. Pour qu'il soit accessible et bien structuré, on sépare l'en-tête du tableau de son corps.
 
@@ -28,9 +28,9 @@ graph TD
 * **`<th>`** (*Table Header*) : Une cellule de **titre** (le texte est en gras et centré par défaut).
 * **`<td>`** (*Table Data*) : Une cellule de **donnée** standard.
 
----
+<div style="page-break-after:always;"></div>
 
-## 2. Créer un Tableau Simple
+## Créer un Tableau Simple
 
 Voici le code pour afficher un tableau de suivi des scores de notre projet pédagogique :
 
@@ -82,9 +82,9 @@ Voici le code pour afficher un tableau de suivi des scores de notre projet péda
   </tbody>
 </table>
 
----
+<div style="page-break-after:always;"></div>
 
-## 3. Fusionner des Lignes et des Colonnes
+## Fusionner des Lignes et des Colonnes
 
 Parfois, une donnée doit occuper plusieurs cases. HTML utilise deux attributs spécifiques sur les balises `<th>` ou `<td>` pour fusionner des cellules.
 
@@ -117,9 +117,9 @@ L'attribut `rowspan` (pour *row span*) permet d'étirer une cellule verticalemen
 
 ```
 
----
+<div style="page-break-after:always;"></div>
 
-## 4. Guide des Bonnes Pratiques
+## Guide des Bonnes Pratiques
 
 
 | Pratique | Pourquoi ? | Statut |

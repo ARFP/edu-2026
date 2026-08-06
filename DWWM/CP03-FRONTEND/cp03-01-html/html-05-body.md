@@ -14,7 +14,7 @@ Après avoir configuré l'en-tête (`<head>`), le corps (`<body>`) constitue la 
 > - **Utiliser** des balises HTML sémantiques adaptées au contenu
 
 
-## 1. L'élément `<body>`
+## L'élément `<body>`
 
 La balise `<body>` est unique. Elle sert de conteneur global pour tous les éléments visuels d'une page : textes, images, boutons, formulaires ou vidéos.
 
@@ -31,9 +31,7 @@ graph TD
 
 ```
 
----
-
-## 2. La structure de base
+## La structure de base
 
 Principales zones à utiliser pour organiser le contenu à l'intérieur du `<body>`.
 
@@ -47,9 +45,7 @@ Principales zones à utiliser pour organiser le contenu à l'intérieur du `<bod
 * **`<footer>`** : Le pied de page. Il contient les mentions légales, les liens de contact ou les droits d'auteur.
 
 > [!info]
->
-> Il ne doit y avoir qu'un seul `<main>` visible par page.
->
+> Il ne peut y avoir qu'un seul `<main>` visible par page.
 > La balise `<nav>` est utilisée pour pour le menu principal, le fil d'arianne, les menus secondaires...
 
 
@@ -57,28 +53,18 @@ Principales zones à utiliser pour organiser le contenu à l'intérieur du `<bod
 
 ```html
 <body>
-
   <header>
     <h1>Mon Site</h1>
-    <nav>
-      
-    </nav>
+    <nav></nav>
   </header>
-
-  <main>
-    
-  </main>
-
-  <footer>
-    
-  </footer>
-
+  <main></main>
+  <footer></footer>
 </body>
 ```
 
----
+<div style="page-break-after:always;"></div>
 
-## 3. Structurer le contenu dans `<main>`
+## Structurer le contenu dans `<main>`
 
 À l'intérieur de la zone principale (`<main>`), le texte et les éléments doivent suivre une hiérarchie stricte.
 
@@ -108,6 +94,8 @@ Les titres structurent la lecture pour l'utilisateur et pour les robots des mote
 >
 > Les `<section>` et les `<article>` peuvent contenir un `<header>` et un `<footer>`.
 
+<div style="page-break-after:always;"></div>
+
 ### B.1 Tableau de validation sémantique
 
 | Mauvaise pratique (Non sémantique) | Bonne pratique (Sémantique) | Impact |
@@ -117,9 +105,9 @@ Les titres structurent la lecture pour l'utilisateur et pour les robots des mote
 | `<div class="bas-de-page">` | `<footer>` | Le code est standardisé, plus propre et plus facile à maintenir en équipe. |
 
 
+<div style="page-break-after:always;"></div>
 
-
-## 4. Utiliser `<div>` et `<span>` : Les règles de l'art
+## Utiliser `<div>` et `<span>` : Les règles de l'art
 
 Lorsque les balises sémantiques (comme `<main>` ou `<nav>`) ne conviennent pas, HTML met à disposition deux balises neutres, sans aucun sens sémantique : `<div>` et `<span>`. Elles servent uniquement de points d'ancrage pour le CSS ou le JavaScript.
 

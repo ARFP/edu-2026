@@ -30,7 +30,7 @@ graph TD
     D --> D1[Image d'aperçu]
 ```
 
----
+<div style="page-break-after:always;"></div>
 
 Toutes les balises `<meta>` se placent obligatoirement dans l'en-tête du document, entre `<head>` et `</head>`.
 
@@ -76,6 +76,7 @@ Voici les balises meta obligatoires dans tout projet web moderne.
 * **Rôle :** Change la couleur de la barre de navigation du navigateur (sur Chrome Android ou Safari iOS) pour l'accorder aux couleurs de votre site.
 * **Intérêt :** Donne un aspect "application native" très qualitatif.
 
+<div style="page-break-after:always;"></div>
 
 ```html
 <meta http-equiv="refresh" content="5;url=https://mon-site.fr/accueil">
@@ -87,7 +88,7 @@ Voici les balises meta obligatoires dans tout projet web moderne.
 >
 > **Alerte Accessibilité :** Utilisez `meta http-equiv="refresh"` avec une *extrême prudence* car cela perturbe les lecteurs d'écran pour les personnes en situation de handicap.
 
----
+
 
 ### Configuration pour le référencement (SEO)
 
@@ -107,7 +108,7 @@ Voici les balises meta obligatoires dans tout projet web moderne.
 * `follow` : autorise à suivre les liens de la page pour découvrir d'autres pages.
 * *Alternative :* `noindex, nofollow` (pour masquer une page privée ou en cours de développement).
 
---- 
+
 
 
 ## Le `<head>` ne contient pas que des meta
@@ -155,9 +156,9 @@ graph TD
 
 * **Pourquoi c'est crucial :** Dit au navigateur de commencer à se connecter à un serveur externe (comme Google Fonts) avant même d'avoir lu les lignes de CSS. Cela gagne de précieuses millisecondes au chargement.
 
----
+<div style="page-break-after:always;"></div>
 
-## 3. Synthèse de l'ordre idéal du `<head>` (Niveau 5 - Bloom)
+## Synthèse de l'ordre idéal du `<head>` 
 
 Pour un code propre et performant, apprenez à vos groupes à toujours structurer le `<head>` dans cet ordre précis :
 
@@ -174,7 +175,7 @@ Souhaitez-vous que nous rédigions le script d'un exercice pratique de validatio
 --- 
 
 
-## 3. Les balises obsolètes (À ne plus utiliser)
+## Les balises obsolètes (À ne plus utiliser)
 
 Le web évolue. Certaines balises autrefois indispensables sont aujourd'hui inutiles ou ignorées par les technologies modernes.
 
@@ -196,7 +197,7 @@ Le web évolue. Certaines balises autrefois indispensables sont aujourd'hui inut
 
 --- 
 
-## 4.  Résumé des bonnes pratiques 
+## Résumé des bonnes pratiques 
 
 | Règle d'or | Pourquoi ? | 
 | --- | --- | 
@@ -205,7 +206,7 @@ Le web évolue. Certaines balises autrefois indispensables sont aujourd'hui inut
 | **La simplicité** | Ne pas écrire de balises inutiles pour garder un code propre. | 
 
 
-## 5. Pour aller plus loin : Le partage social 
+## Pour aller plus loin : Le partage social 
 
 Lorsque vous partagez un lien sur un réseau social, une carte visuelle s'affiche automatiquement. 
 

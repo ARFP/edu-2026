@@ -4,7 +4,7 @@ Maintenant que la structure de votre page (`<header>`, `<main>`, `<footer>`) est
 
 ---
 
-## 1. Les Balises de Texte 
+## Les Balises de Texte 
 
 Le texte en HTML ne se jette pas au kilomètre. Chaque bloc de texte doit avoir un rôle précis pour être compris par les navigateurs et les outils d'accessibilité.
 
@@ -14,7 +14,7 @@ Le texte en HTML ne se jette pas au kilomètre. Chaque bloc de texte doit avoir 
 
 ⚠️ **Règle d'or :** N'utilisez pas `<strong>` juste pour "mettre en gras". Utilisez-le parce que le mot est important. Le style visuel pur sera géré plus tard par le CSS.
 
----
+<div style="page-break-after:always;"></div>
 
 ## 2. Les Listes 
 
@@ -45,7 +45,7 @@ Utilisée quand l'ordre est crucial (ex: les étapes d'une recette ou d'un algor
 
 ```
 
----
+<div style="page-break-after:always;"></div>
 
 ## 3. Les Liens et les Images 
 
@@ -74,9 +74,9 @@ C'est une balise **orpheline**. Elle nécessite deux attributs obligatoires :
 
 ```
 
----
+<div style="page-break-after:always;"></div>
 
-## 4. Exercice de Validation
+## 4. Exemples de critères de validation
 
 | Structure de Code | Statut | Correction / Pourquoi ? |
 | --- | --- | --- |

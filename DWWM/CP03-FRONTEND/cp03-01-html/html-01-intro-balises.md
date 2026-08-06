@@ -20,7 +20,7 @@ Avant de se jeter dans le codage d'une page web, il est indispensable de compren
 
 HTML n'est pas un langage de programmation, mais un **langage de balisage**. Il sert à structurer et à donner du sens à votre contenu.
 
----
+<div style="page-break-after:always;"></div>
 
 ### 1. Anatomie d'une Balise (Niveau 1 & 2 - Bloom)
 
@@ -59,7 +59,7 @@ Elles n'entourent aucun texte. Elles servent à insérer un élément ou une ins
 
 * **Exemple :** `<img src="photo.jpg" alt="Ma photo">`.
 
----
+<div style="page-break-after:always;"></div>
 
 ### 3. Les Attributs
 
@@ -87,7 +87,7 @@ l'attribut  l'attribut
 | **`data-*`** | Universel | Permet de cacher une information technique (comme un prix, un ID) pour la donner à un script JavaScript. | `<button data-prix="1.50">` |
 
 
----
+<div style="page-break-after:always;"></div>
 
 ### 4. Structure globale d'un document
 

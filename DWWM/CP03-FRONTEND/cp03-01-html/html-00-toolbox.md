@@ -26,6 +26,8 @@ Avant d'écrire votre première ligne de code, vous devez préparer votre espace
 > Il est recommandé d'avoir suivi la présentation sur la petite histoire du web et du HTML. 
 > [Voir la présentation](./html-00-presentation.md)
 
+<div style="page-break-after:always;"></div>
+
 ## 1. Le Navigateur Web (Votre Traducteur)
 
 Une erreur fréquente au début est de penser qu'il faut obligatoirement "être sur Internet" ou payer un hébergeur pour créer un site web. *C'est faux*.
@@ -75,7 +77,7 @@ Le code informatique demande de la rigueur. Face à une page qui ne s'affiche pa
 * **Adresse du validateur**
     * [https://validator.w3.org](https://validator.w3.org/)
 
----
+<div style="page-break-after:always;"></div>
 
 ## 4. Les 3 Règles d'Or du rangement
 

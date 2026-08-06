@@ -1,4 +1,4 @@
-# Cours : La Sémantique HTML — Partie 2 : Aller plus loin (Expert)
+# La Sémantique HTML — Partie 2 : Aller plus loin (Expert)
 
 Après avoir maîtrisé les grandes zones de mise en page (`<header>`, `<main>`, `<footer>`), devenir un développeur professionnel demande de savoir structurer le **micro-contenu**.
 
@@ -6,7 +6,7 @@ Cette partie 2 détaille les balises sémantiques avancées qui feront la diffé
 
 ---
 
-## 1. Comprendre : La sémantique du texte textuel (Niveau 1 & 2 - Bloom)
+## La sémantique du texte textuel 
 
 Il existe des balises très précises pour entourer des portions de texte spécifiques. Elles indiquent aux navigateurs et aux liseuses de quoi on parle exactement.
 
@@ -25,9 +25,9 @@ graph TD
 * **`<address>`** : Regroupe les informations de contact de l'auteur ou de l'entreprise (adresse physique, lien vers un formulaire de contact, email).
 * **`<code>`** : Indique qu'un texte est un morceau de code informatique.
 
----
+<div style="page-break-after:always;"></div>
 
-## 2. Appliquer : Le format Date-Machine et les Figures (Niveau 3 - Bloom)
+## Appliquer : Le format Date-Machine et les Figures 
 
 ### A. La balise `<time>` et l'attribut `datetime`
 
@@ -52,9 +52,9 @@ Pour lier sémantiquement une illustration (image, schéma, tableau) à sa lége
 
 ```
 
----
+<div style="page-break-after:always;"></div>
 
-## 3. Analyser : Les listes de description `<dl>` (Niveau 4 - Bloom)
+## Analyser : Les listes de description `<dl>` 
 
 Au-delà des listes à puces classiques (`<ul>`, `<ol>`), HTML propose la liste de description. Elle est idéale pour créer des **FAQ (Foires Aux Questions)**, des glossaires ou des fiches techniques (Clé $\rightarrow$ Valeur).
 
@@ -73,9 +73,9 @@ Au-delà des listes à puces classiques (`<ul>`, `<ol>`), HTML propose la liste 
 
 ```
 
----
+<div style="page-break-after:always;"></div>
 
-## 4. Évaluer : Tableau d'Impact Métier (Niveau 5 - Bloom)
+## Tableau d'Impact Métier 
 
 | Balise Avancée | Ce qu'elle remplace (À éviter ❌) | Gain concret en entreprise |
 | --- | --- | --- |

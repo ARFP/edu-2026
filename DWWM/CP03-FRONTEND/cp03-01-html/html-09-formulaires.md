@@ -4,7 +4,7 @@ Un formulaire permet à l'utilisateur de saisir des données (texte, choix, fich
 
 ---
 
-## 1. Les trois éléments clés d'un formulaire
+## Les trois éléments clés d'un formulaire
 
 Pour qu'un formulaire fonctionne et soit accessible, il repose sur l'association stricte de trois éléments fondamentaux.
 
@@ -20,9 +20,9 @@ graph TD
 * **`<label>`** : L'étiquette textuelle qui explique à l'utilisateur ce qu'il doit saisir.
 * **`<input>`** : Le champ de saisie où l'utilisateur tape ou sélectionne une information.
 
----
+<div style="page-break-after:always;"></div>
 
-## 2. Créer un Formulaire Simple
+## Créer un Formulaire Simple
 
 Voici le code pour un formulaire de connexion classique.
 
@@ -60,9 +60,9 @@ Voici le code pour un formulaire de connexion classique.
   <button type="submit">Se connecter</button>
 </div>
 
----
+<div style="page-break-after:always;"></div>
 
-## 3. Les Attributs Cruciaux
+## Les Attributs Cruciaux
 
 Les formulaires HTML s'appuient sur des attributs précis. Si l'un d'eux est oublié, le formulaire devient inutile ou inaccessible.
 
@@ -75,19 +75,19 @@ Les formulaires HTML s'appuient sur des attributs précis. Si l'un d'eux est oub
 
 
 
-### B. Le lien Label-Input (Règle d'Accessibilité TSA/TDAH/Malvoyance)
+### B. Le lien Label-Input (A11Y)
 
 Pour lier un texte explicatif à son champ, l'attribut **`for`** du `<label>` doit être **strictement identique** à l'attribut **`id`** de l'`<input>`.
 
 > **Pourquoi ?** Cela permet à un utilisateur de cliquer sur le texte pour activer le champ de saisie. Cela agrandit la zone cible, ce qui améliore le confort visuel et moteur.
 
-### C. L'attribut indispensable pour le développeur backend : `name`
+### C. L'attribut indispensable pour le backend : `name`
 
 L'attribut **`name`** est l'identifiant de la donnée pour le serveur. Sans l'attribut `name`, la donnée saisie par l'utilisateur n'est tout simplement jamais envoyée au script PHP ou JavaScript.
 
----
+<div style="page-break-after:always;"></div>
 
-## 4. Les Types d'Inputs courants
+## Les Types d'Inputs courants
 
 <a href="#md-forms-type" id="md-form-types">Le comportement</a>  de la balise orpheline `<input>` change complètement selon la valeur de son attribut `type`.
 
@@ -101,7 +101,7 @@ L'attribut **`name`** est l'identifiant de la donnée pour le serveur. Sans l'at
 | **Bouton Radio** | `type="radio"` | Permet un choix unique parmi plusieurs options portant le même `name`. |
 
 
----
+<div style="page-break-after:always;"></div>
 
 ### 1. Les types de texte de base
 
@@ -114,7 +114,6 @@ L'attribut **`name`** est l'identifiant de la donnée pour le serveur. Sans l'at
 | **`search`** | `type="search"` | Identique au type text, mais ajoute souvent une petite croix à droite pour effacer le texte d'un clic. |
 | **`tel`** | `type="tel"` | Dédié aux numéros de téléphone. Sur mobile, il ouvre automatiquement le pavé numérique. |
 
----
 
 ### 2. Les types numériques et curseurs
 
@@ -123,7 +122,7 @@ L'attribut **`name`** est l'identifiant de la donnée pour le serveur. Sans l'at
 | **`number`** | `type="number"` | Autorise uniquement les chiffres. Ajoute des petites flèches pour monter ou descendre la valeur. |
 | **`range`** | `type="range"` | Affiche un curseur horizontal à glisser vers la gauche ou la droite (utile pour un volume ou une jauge). |
 
----
+<div style="page-break-after:always;"></div>
 
 ### 3. Les types de sélection et de choix
 
@@ -133,7 +132,7 @@ L'attribut **`name`** est l'identifiant de la donnée pour le serveur. Sans l'at
 | **`radio`** | `type="radio"` | Un bouton d'option rond. Si plusieurs boutons ont le même attribut `name`, l'utilisateur peut en cocher **un seul** à la fois. |
 | **`color`** | `type="color"` | Ouvre la palette de couleurs native de l'ordinateur ou du téléphone pour choisir une couleur. |
 
----
+
 
 ### 4. Les types de dates et d'heures
 
@@ -145,7 +144,7 @@ L'attribut **`name`** est l'identifiant de la donnée pour le serveur. Sans l'at
 | **`month`** | `type="month"` | Permet de choisir un mois et une année spécifique (sans le jour). |
 | **`week`** | `type="week"` | Permet de sélectionner une semaine complète de l'année (ex: Semaine 26). |
 
----
+<div style="page-break-after:always;"></div>
 
 ### 5. Les types d'action et techniques
 

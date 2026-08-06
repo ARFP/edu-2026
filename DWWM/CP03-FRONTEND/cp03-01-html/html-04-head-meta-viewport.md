@@ -15,7 +15,7 @@ La balise `<meta name="viewport">` est indispensable pour créer des sites web a
 
 ---
 
-## 1. Le Concept : Le problème et la solution
+## Le Concept : Le problème et la solution
 
 ### Le problème historique (Sans cette balise)
 
@@ -39,9 +39,9 @@ graph TD
 
 Le mot "viewport" désigne la zone d'affichage de la page web à l'écran. En ajoutant cette balise, vous donnez des instructions directes au navigateur du téléphone.
 
----
+<div style="page-break-after:always;"></div>
 
-## 2. La Syntaxe Standard
+## La Syntaxe Standard
 
 C'est la configuration recommandée à utiliser par défaut dans tous vos projets :
 
@@ -61,9 +61,9 @@ C'est la configuration recommandée à utiliser par défaut dans tous vos projet
 | Le site est affiché en miniature. | Le site s'adapte, le texte est lisible. |
 | Zoom horizontal obligatoire. | Défilement uniquement de haut en bas. |
 
----
+<div style="page-break-after:always;"></div>
 
-## 3. Les Options Avancées
+## Les Options Avancées
 
 La directive `content=""` accepte d'autres propriétés, séparées par des virgules, pour répondre à des besoins spécifiques.
 
@@ -86,9 +86,9 @@ Cette option gère l'affichage sur les écrans modernes dotés d'une encoche (*n
 * **`viewport-fit=auto`** (par défaut) : Le site reste dans la zone rectangulaire sûre. Des bandes noires ou blanches apparaissent sur les côtés en mode paysage.
 * **`viewport-fit=cover`** : Le site web occupe 100% de l'écran physique et passe sous l'encoche. Idéal pour les designs immersifs ou les jeux.
 
----
+<div style="page-break-after:always;"></div>
 
-## 4. Synthèse des cas pratiques
+## Synthèse des cas pratiques
 
 Voici les trois configurations principales à retenir selon le projet :
 

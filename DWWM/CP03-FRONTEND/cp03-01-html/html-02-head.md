@@ -21,6 +21,8 @@ graph TD
 
 ```
 
+<div style="page-break-after:always;"></div>
+
 ### La balise `<title>` (Le titre de l'onglet)
 
 * **Pourquoi c'est crucial :** C'est l'élément le plus important pour le référencement (SEO) après le contenu de la page. C'est le titre bleu cliquable dans Google.
@@ -56,6 +58,7 @@ graph TD
 
 Les métadonnées sont détaillées dans le support [HTML: Les métadonnées](./HTML-head-meta.md)
 
+<div style="page-break-after:always;"></div>
 
 ### Les ressources externes
 
